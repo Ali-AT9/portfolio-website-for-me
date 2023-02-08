@@ -101,3 +101,12 @@ span {
   place-items: center;
   color: rgb(216, 222, 226);
 }
+
+.row {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.card {
+  --bs-card-bg: none;
+}
