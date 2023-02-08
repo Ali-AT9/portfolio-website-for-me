@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgb(62, 20, 82), rgb(54, 3, 52));
+  height: 100vh;
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(216, 216, 216);
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+  display: flex;
+  margin-left: 7px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+header ul li a:hover {
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.815);
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.section-1 {
+  height: 100%;
+  width: 100%;
+}
+.container .text {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 40%;
+}
+
+.container .text h1,
+span {
+  color: rgb(194, 194, 194);
+  font-weight: 400;
+}
+
+.container .text h1 {
+  font-size: 4rem;
+}
+
+.container .text span {
+  font-size: 20px;
+}
+
+.section-2 {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-2 .text {
+  display: grid;
+  place-items: center;
+  color: rgb(216, 222, 226);
+}
