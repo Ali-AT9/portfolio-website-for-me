@@ -109,4 +109,5 @@ span {
 
 .card {
   --bs-card-bg: none;
+  border-radius: 20px;
 }
