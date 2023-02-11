@@ -94,6 +94,7 @@ span {
 .section-2 {
   height: 100vh;
   width: 100%;
+  background: linear-gradient(rgb(62, 20, 82), rgb(54, 3, 52));
 }
 
 .section-2 .text {
@@ -110,4 +111,16 @@ span {
 .card {
   --bs-card-bg: none;
   border-radius: 20px;
+}
+
+#contact-form {
+  margin-left: 35%;
+}
+
+.text-center {
+  color: rgb(194, 194, 194);
+}
+
+label {
+  color: rgb(194, 194, 194);
 }
