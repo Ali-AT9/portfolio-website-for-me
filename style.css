@@ -126,3 +126,13 @@ span {
 label {
   color: rgb(252, 252, 252);
 }
+
+.btn {
+  background-color: black;
+  border: none;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
